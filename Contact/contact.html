@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario con validaciones jQuery</title>
+  <link rel="Icon" href="/img/logo16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+	<form id="myForm">
+		<label for="nombre">Nombre</label>
+		<input type="text" id="nombre" name="nombre"><br><br>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<label for="telefono">Teléfono</label>
+		<input type="tel" id="telefono" name="telefono"><br><br>
+
+		<label for="comentario">Comentario</label>
+		<textarea id="comentario" name="comentario"></textarea><br><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+
+    <script src="validaContac.js"></script>
+</body>
+
+</html>

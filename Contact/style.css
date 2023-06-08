@@ -1,0 +1,65 @@
+body {
+  background-image: url("/img/Assasin.jpg");
+  background-size: cover;
+}
+
+#myForm {
+  background: linear-gradient(120deg, #bcb8b8, #a79f9f);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: transparent;
+  position: absolute;
+  left: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea[id="comentario"] {
+  display: block;
+  width: 580px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background: linear-gradient(120deg, #ffffff, #ffffff);
+  border: none;
+  border-radius: 5px;
+  margin-left: 250px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffffff;
+}
+
+.error {
+  color: rgb(220, 24, 24);
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.success {
+  background: linear-gradient(120deg, #0ecac7, #770eca);
+  margin-top: -10px;
+  margin-bottom: 10px;
+}

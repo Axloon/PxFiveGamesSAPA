@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recuperar contraseña</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+  <div class="correo">
+    <h1>Recupera el acceso a tu cuenta</h1>
+    <form method="post">
+      <div class="a">
+        <label>Ingresa el correo para recuperar el acceso de tu cuenta</label>
+      </div>
+      <div class="email">
+        <input type="email" name="email" placeholder="ejemplo@correo.com" required>
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+  </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Se enviará un código al correo electrónico mencionado para continuar.</p>
+    </div>
+  </div>
+
+  <script src="forget.js"></script>
+</body>
+</html>
